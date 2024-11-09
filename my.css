@@ -1,0 +1,110 @@
+.main-background{
+    background-image: url("/img2/background.jpg");
+    width: 100vw;
+    height: 1000px;
+    background-size: cover;
+    padding: 0.1px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-title{
+    margin-top: 50px;
+    font-size: 80px;
+    text-align: center;
+    color:black;
+}
+
+.sub-title{
+    color:black;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.main-btn{
+    margin-top: 100px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "Gowun Batang", serif;
+}
+
+body, p{
+    font-family: "Dancing Script", "Gowun Batang", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+}
+
+.menu-container{
+    background-color: wheat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item {
+    margin: 20px;
+    text-align: center;
+
+}
+
+.menu-container i{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding-top: 20px;
+    color: white;
+
+}
+
+.menu-container div{
+    width: 25%;
+}
+
+.flex-item{
+    display: flex;
+
+}
+
+@media screen and (max-width: 1280px){
+    .main-title{
+        color:red;
+    }
+    .sub-title{
+        color: blue;
+        font-size: 80px;
+    }
+}
+@media  screen and(max-width: 768px) {
+    .box{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .main-title{
+        color: blue;
+    }
+    .sub-title{
+        color: red;
+    }
+    #login {
+        display: none;
+    }
+    .menu-container{
+        flex-direction: column;
+    }
+}
+
